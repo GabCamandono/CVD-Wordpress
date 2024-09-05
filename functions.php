@@ -2,7 +2,6 @@
 
 function cvd_assets() {
     wp_enqueue_style('main-style', get_template_directory_uri() . '/style/main.css' , microtime() );
-    // wp_enqueue_script('main-js', get_template_directory_uri() . '/script/slider.js', [], microtime(), true);
 }
 
    
